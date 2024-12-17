@@ -12,5 +12,3 @@ To play with Detic, open in Colab this notebook:
 * When installing the dependencies, there might be 2 pop-up messages saying
 <strong style="color: darkred;">WARNING: The following packages were previously imported in this runtime: [<package name\>]. You must restart the runtime in order to use newly installed versions.</strong>
 In this case, click on ***cancel***.
-
-* Make sure to upload an image to your Drive folder to explore  Detic's detection capabilities on this file.
