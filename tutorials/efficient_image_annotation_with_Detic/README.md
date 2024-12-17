@@ -4,9 +4,7 @@ This tutorial will guide you through the process of annotating images for object
 
 To get more information about Detic, you can visit our technical blog [here](https://kickstartai.atlassian.net/wiki/spaces/~71202086d3c17bf1f24444b41fe55d358b6f32/pages/237469742/Efficient+Image+annotation+for+object+detection+using+Detic).
 
-To play with Detic, open in Colab this notebook: 
-
-```showcase_image_annotation_with_detic.ipynb```
+To play with Detic, open in Colab the notebook of this repository: ```showcase_image_annotation_with_detic.ipynb```
 
 ***Important Notes:*** 
 * When installing the dependencies, there might be 2 pop-up messages saying
