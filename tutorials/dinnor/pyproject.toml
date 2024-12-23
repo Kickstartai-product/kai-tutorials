@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dinnor"
+version = "0.1.0"
+description = ""
+authors = ["Cascha van Wanrooij <cascha.vanwanrooij@kickstart.ai>", "Evertjan Peer <evertjan.peer@kickstart.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ortools = "^9.11.4210"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
