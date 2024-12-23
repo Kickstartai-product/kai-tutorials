@@ -33,22 +33,14 @@ Additionally, we use that
 
 ## Decision Variables
 1. For each triplet $t \in T$ and position $p \in \{0,\ldots,N-1\}$:
-   $$x_{t,p} = \begin{cases} 
-   1 & \text{if triplet } t \text{ is assigned to position } p \\ 
-   0 & \text{otherwise} 
-   \end{cases}$$
+1. For each triplet $t \in T$ and position $p \in \{0,\ldots,N-1\}$:
+  $x_{t,p} = 1$ if triplet $t$ is assigned to position $p$, and $0$ otherwise
 
 2. For each triplet $t \in T$:
-   $$y_t = \begin{cases} 
-   1 & \text{if triplet } t \text{ is used in the solution} \\ 
-   0 & \text{otherwise} 
-   \end{cases}$$
+  $y_t = 1$ if triplet $t$ is used in the solution, and $0$ otherwise
 
 3. For each historical pair $h \in H$:
-   $$h_{\text{used}} = \begin{cases} 
-   1 & \text{if historical pair is reused} \\ 
-   0 & \text{otherwise} 
-   \end{cases}$$
+  $h_{\text{used}} = 1$ if historical pair is reused, and $0$ otherwise
 
 ## Objective Function
 Minimize the number of historical pairs that are reused:
