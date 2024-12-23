@@ -22,7 +22,7 @@ The Rotating DinnOR Problem involves assigning N addresses into groups of three 
 
 ## Parameters
 - Let $N = 69$ be the number of addresses/people that participate this year
-- Let SECTION SIZE$ = 23$ be the size of each section (course)
+- Let SECTION SIZE $= 23$ be the size of each section (course)
 - Let $H$ be the set of historical pairs $(i,j)$ that have dined together before
 - Let $P_i$ be the previous section assignment for person $i$ (if it exists)
 - Let $T$ be the set of all valid triplets $(i,j,k)$ where $i,j,k \in \{1,\ldots,N\}$ and $i \neq j \neq k$
