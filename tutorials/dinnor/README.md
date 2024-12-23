@@ -33,7 +33,7 @@ Additionally, we use that
 
 ## Decision Variables
 1. For each triplet $t \in T$ and position $p \in \{0,\ldots,N-1\}$:
-   - [$x_{t,p} = \begin{cases} 1 & \text{if triplet } t \text{ is assigned to position } p \\ 0 & \text{otherwise} \end{cases}$]
+   - $$x_{t,p} = \begin{cases} 1 & \text{if triplet } t \text{ is assigned to position } p \\ 0 & \text{otherwise} \end{cases}$$
 
 2. For each triplet $t \in T$:
    - $y_t = \begin{cases} 1 & \text{if triplet } t \text{ is used in the solution} \\ 0 & \text{otherwise} \end{cases}$
